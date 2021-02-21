@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <style type="text/css">
+    .img-lemon{
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 300px
+    }
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+
+    }
+    .collapsible {
+  background-color: #F0F8FF;
+  color: #000000;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+}
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #FFEBCD;
+  color: black;
+  font-size: 30px;
+}
+h3{
+  background-color: #F0F8FF;
+  color: #000000;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+
+}
+.checkbox-inline{
+  padding: 15px;
+  font-size: 20px;
+}
+
+    </style>
+    <div class="header">
+  <h1>Bag of Lemons</h1>
+  </div>
+
+<img class="img-lemon" src="img/baglemons.jpg" alt="my baglemons">
+<button type="button" class="collapsible">More Description</button>
+<div class="content">
+  <p>Product number: 6988</p>
+</div>
+<br>
+  <p><h3>Size</h3></p>
+  <label class="checkbox-inline">
+        <input type="checkbox" value="">Full
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" value="">Half
+      </label>
+  <br>
+  <br>
+  <form action="/action_page.php" method="get">
+    <label for="quantity"><h3>Quantity</h3></label>
+    <input type="text" id="quantity" name="quantity"><br><br>
+  <button type="button"><h2>Add to cart</h2></button>
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+  </script>
+  </body>
+</html>

@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>Apples</title>
+  </head>
+  <body>
+<style type="text/css">
+table{
+  width: 600px;
+  border-spacing: 10px;
+
+}
+table,td{
+  border:1px solid #000;
+  border-collapse: collapse;
+}
+.img-apple{
+  width: 150px
+
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+  </style>
+
+    <table>
+      <tr>
+        <td> <img class="img-apple" src="img/Cameoapple.jpg" alt="my Cameoapple">
+          <br><a href="Camapple.html">Cameo Apples</a> <br> $0.86 avg
+          <br> $4.5/kg <br>
+            <button type="button" class="collapsible">More Description</button>
+            <div class="content">
+              <p>The cameo apples are a delicious and healthy snack, that is not too sweet and has just the right about of acidity. Product number: 4476</p>
+            </div>
+              <br>
+              <button type="button">Add to cart</button>
+              </td>
+        <td> <img class="img-apple" src="img/NSA.jpg" alt="my NorthernSpyApple">
+          <br><a href="Northernapple.html">Northern Spy Apples</a> <br> $0.98 avg <br> $6.5/kg <br>
+          <button type="button" class="collapsible">More Description</button>
+          <div class="content">
+            <p>The NorthernSpyApple have the perfect balance of sweet and acidic, and have a great crisp bite. Product number: 4924</p>
+          </div>
+            </div>
+            <br>
+          <button type="button">Add to cart</button>
+      </td>
+        <td> <img class="img-apple" src="img/Stayman.jpg" alt="my Staymanapple">
+          <br><a href="Stayman.html">Stayman</a><br> $0.76 avg <br> $3.99/kg<br>
+          <button type="button" class="collapsible">More Description</button>
+          <div class="content">
+            <p>The Stayman apple is a smaller apple that is more tart than others, and has a great crisp. Product number: 4432</p>
+          </div>
+          <br>
+        <button type="button">Add to cart</button>
+      </tr>
+      <tr>
+        <td> <img class="img-apple" src="img/Rome.jpg" alt="my RomeApple">
+          <br>Rome Apples
+        <br> $0.88 avg
+        <br> $4.8/kg <br>
+        <button type="button" class="collapsible">More Description</button>
+        <div class="content">
+          <p>  The Rome apple arIf e small and crisp apples that always have a great sweet taste. Product number: 4499</p>
+        </div>
+  <br>
+      <button type="button">Add to cart</button>
+        <td> <img class="img-apple" src="img/Empire.jpg" alt="my EmpireApple">
+          <br>Empire Apples
+          <br> $0.79 avg
+          <br> $4.2/kg <br>
+          <button type="button" class="collapsible">More Description</button>
+          <div class="content">
+            <p>The Empire apples is the perfect sweet appple to satisfy your cravings. Product number: 4441</p>
+          </div>
+          <br>
+        </div>
+        <button type="button">Add to cart</button>
+        </td>
+        <td> <img class="img-apple" src="img/Honeycrisp.jpg" alt="my Honeycrispapple">
+          <br>Honeycrisp Apples
+          <br>$0.94 avg
+          <br> $6.1/kg <br>
+          <button type="button" class="collapsible">More Description</button>
+          <div class="content">
+            <p>  The honey crisp apples are crisp, tart and sweet  leading to the best snack ever! Product number: 4444</p>
+          </div>
+          <br>
+        <button type="button">Add to cart</button>
+        </td>
+      </tr>
+    </table>
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+
+  </body>
+</html>

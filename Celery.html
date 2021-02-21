@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Celery</title>
+  </head>
+  <body>
+<style type="text/css">
+table{
+  width: 600px;
+  border-spacing: 10px;
+}
+table,td{
+  border:1px solid #000;
+  border-collapse: collapse;
+}
+.img-celery{
+  width: 150px
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+  </style>
+    <table>
+      <tr>
+        <td><img class="img-celery" src="img/celery.jpg" alt="my Celery">
+          <br>Celery<br>$3.99 each
+          <br> <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Product number:10012</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+        <td><img class="img-celery" src="img/Ocelery.jpeg" alt="my Organic Celery">
+          <br>Organic Celery
+          <br>$4.99 each
+          <br> <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Product number:10013</p>
+                </div>
+              <br>
+
+            </div>
+          </div>
+        <button type="button">Add to cart</button></td>
+        <td><img class="img-celery" src="img/rootcelery.jpeg" alt="my Celery Root">
+          <br>Celery Root
+          <br>$3.49 avg. each<br>$5.49/kg
+          <br> <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Product number:10014</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+      </tr>
+    </table>
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+  </body>
+</html>

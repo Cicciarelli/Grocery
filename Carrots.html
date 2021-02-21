@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Carrots</title>
+  </head>
+  <body>
+<style type="text/css">
+table{
+  width: 600px;
+  border-spacing: 10px;
+}
+table,td{
+  border:1px solid #000;
+  border-collapse: collapse;
+}
+.img-carrots{
+  width: 150px
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+  </style>
+    <table>
+      <tr>
+        <td><img class="img-carrots" src="img/Carrots.jpeg" alt="my Carrots">
+          <br>Carrots<br>$0.88 avg. each
+          <br>$4.39/kg
+          <br><button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Product number:10023</p>
+                </div>
+              <br>
+
+          <button type="button">Add to cart</button></td>
+        <td><img class="img-carrots" src="img/Organiccar.jpeg" alt="my Organic Carrots">
+          <br>Organic Carrots<br>$3.49 each<br>$3.80/kg<br>
+          <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p>Product number:10025</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+        <td><img class="img-carrots" src="img/Topcar.jpeg" alt="my Carrots with Tops">
+          <br>Carrots with Tops
+          <br>$2.49 each
+          <br><button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Product number:10028</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+        <td><img class="img-carrots" src="img/Bagcar.jpeg" alt="my Bag of Carrots">
+          <br>Bag of Carrots<br>$2.49 each<br>$2.7/kg<br>
+          <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p>Product number:10029</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+      </tr>
+    </table>
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+  </body>
+</html>

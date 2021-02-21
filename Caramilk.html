@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+  </head>
+  <body>
+    <style type="text/css">
+    .img-chocolate{
+      display: block;
+
+      width: 300px
+    }
+    .content {
+      padding: 0 18px;
+      display: none;
+      overflow: hidden;
+      text-align: center;
+
+    }
+    .collapsible {
+  background-color: #000000;
+  color: #F8F8FF;
+  cursor: pointer;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: center;
+  outline: none;
+  font-size: 20px;
+}
+.header {
+  padding: 5px;
+  text-align: center;
+  background: #DAA520;
+  color: black;
+  font-size: 30px;
+}
+h3{
+  background-color: #000000;
+  color: #F8F8FF;
+  padding: 10px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 20px;
+
+}
+.checkbox-inline{
+  padding: 15px;
+  font-size: 20px;
+
+}
+
+.dropbtn {
+  background-color: #000000;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+.dropdown{
+  float: none;
+}
+
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #F8F8FF;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+
+
+.show {display: block;}
+
+    </style>
+    <div class="header">
+  <h1>Caramilk</h1>
+  </div>
+
+<img class="img-chocolate" src="img/chocolate stand in.jpg" alt="my chocolate">
+<button type="button" class="collapsible">More Description</button>
+<div class="content">
+  <p>Chocolate or Caramel? How about both! Product number:13033</p>
+</div>
+<br>
+<h3>Quantity</h3>
+<div class="dropdown">
+<button onclick="myFunction()" class="dropbtn">Dropdown</button>
+<div id="myDropdown" class="dropdown-content">
+  <a href="#1">1</a>
+  <a href="#2">2</a>
+  <a href="#3">3</a>
+</div>
+</div>
+<br>
+  <p><h3>Size</h3></p>
+  <label class="checkbox-inline">
+        <input type="checkbox" value="">Extra large bar
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" value=""> Regular Bar
+      </label>
+      <label class="checkbox-inline">
+        <input type="checkbox" value=""> Small Bar
+      </label>
+  <br>
+  <br>
+
+  <button type="button"><h2>Add to cart</h2></button>
+  <br>
+
+  <script>
+  var coll = document.getElementsByClassName("collapsible");
+  var i;
+
+  for (i = 0; i < coll.length; i++) {
+    coll[i].addEventListener("click", function() {
+      this.classList.toggle("active");
+      var content = this.nextElementSibling;
+      if (content.style.display === "block") {
+        content.style.display = "none";
+      } else {
+        content.style.display = "block";
+      }
+    });
+  }
+
+/* When the user clicks on the button,
+toggle between hiding and showing the dropdown content */
+function myFunction() {
+  document.getElementById("myDropdown").classList.toggle("show");
+}
+
+// Close the dropdown if the user clicks outside of it
+window.onclick = function(event) {
+  if (!event.target.matches('.dropbtn')) {
+    var dropdowns = document.getElementsByClassName("dropdown-content");
+    var i;
+    for (i = 0; i < dropdowns.length; i++) {
+      var openDropdown = dropdowns[i];
+      if (openDropdown.classList.contains('show')) {
+        openDropdown.classList.remove('show');
+      }
+    }
+  }
+}
+</script>
+  </body>
+</html>

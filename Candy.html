@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Candy</title>
+  </head>
+  <body>
+<style type="text/css">
+table{
+  width: 600px;
+  border-spacing: 10px;
+
+}
+table,td{
+  border:1px solid #000;
+  border-collapse: collapse;
+}
+.img-candy{
+  width: 150px
+}
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f1f1f1;
+}
+  </style>
+    <table>
+      <tr>
+        <td> <img class="img-candy" src="img/marshmallows.jpg" alt="my marshmallows">
+          <br> Marshmallows<br> $2.99 each<br>
+          <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Amazing for a camp fire that everyone can enjoy!Product number:11082</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+        <td> <img class="img-candy" src="img/gummy bears.jpg" alt="my gummy bears">
+          <br>Gummy Bears Candies<br> $7.99 each <br>
+          <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Product number:11083</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+        <td> <img class="img-candy" src="img/licorice.jpg" alt="my licorice">
+          <br>Cherry Flavoured Candy, Nibs<br> $2.99 each <br>
+          <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Product number:11084</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+        <td> <img class="img-candy" src="img/sour patch kids.jpg" alt="my sour patch kids">
+          <br>Heads candy, Sour Patch Kids<br> $2.49 each<br>
+          <button type="button" class="collapsible">More Description</button>
+                <div class="content">
+                  <p> Product number:11085</p>
+                </div>
+              <br>
+
+        <button type="button">Add to cart</button></td>
+      </tr>
+    </table>
+
+    <script>
+    var coll = document.getElementsByClassName("collapsible");
+    var i;
+
+    for (i = 0; i < coll.length; i++) {
+      coll[i].addEventListener("click", function() {
+        this.classList.toggle("active");
+        var content = this.nextElementSibling;
+        if (content.style.display === "block") {
+          content.style.display = "none";
+        } else {
+          content.style.display = "block";
+        }
+      });
+    }
+    </script>
+  </body>
+</html>

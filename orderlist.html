@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+	<link rel="stylesheet" href="Stylesheet.css">
+	
+    <style>
+      table, th, td{
+	  
+	  border-collapse: collapse;
+      }
+      th, td{
+	  padding: 5px;
+      }
+      th{
+	  text-align: left;
+      }
+     </style>
+      
+	
+    <title>Order List</title>
+    <body>
+
+      <h1>Order List  </h1>
+      <table style="width:100%">
+  <tr>
+    <th>Order #</th>
+    <th>User</th>
+    <th>Contents</th>
+    <th>Order Date</th>
+  </tr>
+  <tr>
+    <td>0001</td>
+    <td>Alice Smith</td>
+    <td>2lb Carrots,1 Baguette, 1lb Cortland Apples</td>
+    <td>25/07/2020</td>
+    <th> <button type="button" id="myBtn" onclick="myFunction()">
+		Delete Order
+		</button>
+		</th>
+  </tr>
+  <tr>
+    <td>0002</td>
+    <td>Jack Anderson</td>
+    <td>5lb Onions, 8oz Mozarella Cheese, Pesto Jar</td>
+    <td>21/01/2021</td>
+    <th> <button type="button" id="myBtn" onclick="myFunction()">
+		Delete Order
+		</button>
+		</th>
+  </tr>
+  <tr>
+    <td>0003</td>
+    <td>Hannah Wilson</td>
+    <td>Hummus Jar, Pita Bread, Baby Carrots</td>
+    <td>05/02/2021</td>
+    <th> <button type="button" id="myBtn" onclick="myFunction()">
+		Delete Order
+		</button>
+		</th>
+    
+  </tr>
+      </table>
+      
+<form id = "form1" method = "GET" action = " " onsubmit = "return validateform()">
+<h2> Add order </h2>
+<br>
+Order Number : <input type = "text" name ="norder">
+<br>
+User First Name: <input type = "text" name ="fname">
+<br>
+User Last Name: <input type = "text" name ="lname">
+<br>
+Contents: <input type = "text" name ="content">
+<br>
+<br>
+Order Date: <input type = "text" name ="datee">
+<br>
+
+</form>
+<br>
+
+<button>Add Order</a></button>
+<br>
+<br>
+<button><a href="editorder.html">Edit Order</a></button>
+
+</body>
+
+</head>
+</html>
