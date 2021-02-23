@@ -1,0 +1,1321 @@
+<!DOCTYPE html">
+<html lang="en">
+<head>
+	<link rel="stylesheet" href="productListStyleSheet">
+</head>
+<body>
+	<h1>
+		Product List
+	</h1>
+	
+	<table>
+		<tr>
+			<td style = "text-align: left;">
+				<input type = "text" id = "searchBox" placeholder = "Search">
+				<button type="button" class = "searchButton">Search</button>
+			</td>
+		</tr>
+	</table>
+	
+	<div class = "container"> 
+		<hr/>
+			<table>
+				<tr>
+					<td style = "text-align: left;">
+						<label>Product</label>
+					</td>
+					<td>
+						<label>Price</label>
+					</td>
+					<td>
+						<label>Quantity</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button" class = "addButton">Add Product</button>
+					</td>
+				</tr>
+			</table>
+			<hr/>
+			<table>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/AsianPears.jpg" width = "90" height = "90">
+						<br>
+						Asian Pears
+					</td>
+					<td>
+						<label>6.50$/kg</label>
+					</td>
+					<td>
+						<label>22</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Asquash.jpg" width = "90" height = "90">
+						<br>
+						Acorn Squash
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>12</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Bagcar.jpeg" width = "90" height = "90">
+						<br>
+						Bag of Carrots
+					</td>
+					<td>
+						<label>2.49$/bag</label>
+					</td>
+					<td>
+						<label>66</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/baglemons.jpg" width = "90" height = "90">
+						<br>
+						Bag of Lemons
+					</td>
+					<td>
+						<label>4.99$/bag</label>
+					</td>
+					<td>
+						<label>17</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/blackgrapes.jpg" width = "90" height = "90">
+						<br>
+						Black Grapes
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>25</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Bloodorange.jpg" width = "90" height = "90">
+						<br>
+						Blood Oranges
+					</td>
+					<td>
+						<label>1.50$/unit</label>
+					</td>
+					<td>
+						<label>76</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Bpears.jpg" width = "90" height = "90">
+						<br>
+						Bosc Pear
+					</td>
+					<td>
+						<label>4.50$/kg</label>
+					</td>
+					<td>
+						<label>32</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Buttsquash.jpeg" width = "90" height = "90">
+						<br>
+						Butternut Squash
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>8</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Cameoapple.png" width = "90" height = "90">
+						<br>
+						Cameo Apples
+					</td>
+					<td>
+						<label>4.50$/kg</label>
+					</td>
+					<td>
+						<label>81</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Caranavel.jpg" width = "90" height = "90">
+						<br>
+						Cara Navel Oranges
+					</td>
+					<td>
+						<label>3.70$/orange</label>
+					</td>
+					<td>
+						<label>16</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Carrots.webp" width = "90" height = "90">
+						<br>
+						Carrots
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>117</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/celery.jpg" width = "90" height = "90">
+						<br>
+						Celery
+					</td>
+					<td>
+						<label>3.99$/stalk</label>
+					</td>
+					<td>
+						<label>47</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chewy cookie.jpg" width = "90" height = "90">
+						<br>
+						Chips Ahoy! Chewy Cookies
+					</td>
+					<td>
+						<label>3.99$/pack</label>
+					</td>
+					<td>
+						<label>123</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chip stand in.jpg" width = "90" height = "90">
+						<br>
+						Miss Vickie's Original Recipe Chips
+					</td>
+					<td>
+						<label>3.99$/bag</label>
+					</td>
+					<td>
+						<label>68</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chip stand in.jpg" width = "90" height = "90">
+						<br>
+						Lay's Classic Chips
+					</td>
+					<td>
+						<label>4.99/bag</label>
+					</td>
+					<td>
+						<label>131</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chip stand in.jpg" width = "90" height = "90">
+						<br>
+						Miss Vickie's Lime and Black Pepper Chips
+					</td>
+					<td>
+						<label>3.99$/bag</label>
+					</td>
+					<td>
+						<label>41</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chip stand in.jpg" width = "90" height = "90">
+						<br>
+						Lay's Dill Pickle Chips
+					</td>
+					<td>
+						<label>3.49$/kg</label>
+					</td>
+					<td>
+						<label>71</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chocolate chip cookies.jpg" width = "90" height = "90">
+						<br>
+						Chips Ahoy! Original Chocolate Chip
+					</td>
+					<td>
+						<label>3.99$/pack</label>
+					</td>
+					<td>
+						<label>117</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chocolate stand in.jpg" width = "90" height = "90">
+						<br>
+						Caramilk Chocolate Bar
+					</td>
+					<td>
+						<label>1.49$/bar</label>
+					</td>
+					<td>
+						<label>201</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chocolate stand in.jpg" width = "90" height = "90">
+						<br>
+						Mr. Big Chocolate Bar
+					</td>
+					<td>
+						<label>1.49$/bar</label>
+					</td>
+					<td>
+						<label>109</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chocolate stand in.jpg" width = "90" height = "90">
+						<br>
+						Crunchie Chocolate Bar
+					</td>
+					<td>
+						<label>1.49$/bar</label>
+					</td>
+					<td>
+						<label>105</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/chocolate stand in.jpg" width = "90" height = "90">
+						<br>
+						Wunderbar Chocolate Bar
+					</td>
+					<td>
+						<label>1.49$/kg</label>
+					</td>
+					<td>
+						<label>126</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Cocktailtom.png" width = "90" height = "90">
+						<br>
+						Cocktail Tomatoes
+					</td>
+					<td>
+						<label>11.00$/kg</label>
+					</td>
+					<td>
+						<label>61</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Cpeas.jpeg" width = "90" height = "90">
+						<br>
+						Chickpeas
+					</td>
+					<td>
+						<label>3.49$/pack</label>
+					</td>
+					<td>
+						<label>172</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Empire.png" width = "90" height = "90">
+						<br>
+						Empire Apples
+					</td>
+					<td>
+						<label>4.20$/kg</label>
+					</td>
+					<td>
+						<label>34</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/englishpeas.jpeg" width = "90" height = "90">
+						<br>
+						English Peas
+					</td>
+					<td>
+						<label>3.99$/pack</label>
+					</td>
+					<td>
+						<label>162</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/fig cookies.jpg" width = "90" height = "90">
+						<br>
+						Newtons Fig Cookies
+					</td>
+					<td>
+						<label>3.99$/pack</label>
+					</td>
+					<td>
+						<label>36</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Fpears.jpeg" width = "90" height = "90">
+						<br>
+						Forelle Pears
+					</td>
+					<td>
+						<label>8.21$/kg</label>
+					</td>
+					<td>
+						<label>47</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Greengrapes.jpg" width = "90" height = "90">
+						<br>
+						Green Grapes
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>91</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/gummy bears.jpg" width = "90" height = "90">
+						<br>
+						Gummy Bear Candies
+					</td>
+					<td>
+						<label>7.99$/pack</label>
+					</td>
+					<td>
+						<label>42</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Honeycrisp.jpg" width = "90" height = "90">
+						<br>
+						Honeycrisp Apples
+					</td>
+					<td>
+						<label>6.10$/kg</label>
+					</td>
+					<td>
+						<label>46</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Hottom.jpeg" width = "90" height = "90">
+						<br>
+						Hothouse Grape Tomatoes
+					</td>
+					<td>
+						<label>7.99$/pack</label>
+					</td>
+					<td>
+						<label>42</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/HRtomatoe.jpg" width = "90" height = "90">
+						<br>
+						Hothouse Red Tomatoes
+					</td>
+					<td>
+						<label>7.69$/kg</label>
+					</td>
+					<td>
+						<label>56</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Italiantom.jpg" width = "90" height = "90">
+						<br>
+						Italian Tomatoes
+					</td>
+					<td>
+						<label>5.49$/kg</label>
+					</td>
+					<td>
+						<label>87</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Kbeans.jfif" width = "90" height = "90">
+						<br>
+						Kidney Beans
+					</td>
+					<td>
+						<label>7.99$/kg</label>
+					</td>
+					<td>
+						<label>88</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Kumatotom.jpeg" width = "90" height = "90">
+						<br>
+						Kumato Tomatoes
+					</td>
+					<td>
+						<label>11.00$/kg</label>
+					</td>
+					<td>
+						<label>20</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Largenect.jpg" width = "90" height = "90">
+						<br>
+						Large Nectarines
+					</td>
+					<td>
+						<label>6.59$/kg</label>
+					</td>
+					<td>
+						<label>52</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Largepeach.jpg" width = "90" height = "90">
+						<br>
+						Large Peach
+					</td>
+					<td>
+						<label>6.59$/kg</label>
+					</td>
+					<td>
+						<label>54</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Lemon.jpg" width = "90" height = "90">
+						<br>
+						Lemons
+					</td>
+					<td>
+						<label>0.99$/kg</label>
+					</td>
+					<td>
+						<label>121</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/licorice.jpg" width = "90" height = "90">
+						<br>
+						Cherry Flavoured Nibs
+					</td>
+					<td>
+						<label>2.99$/pack</label>
+					</td>
+					<td>
+						<label>61</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Limabeans.jpeg" width = "90" height = "90">
+						<br>
+						Jumbo Lima Beans
+					</td>
+					<td>
+						<label>6.79$/can</label>
+					</td>
+					<td>
+						<label>71</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/marshmallows.jpg" width = "90" height = "90">
+						<br>
+						Marshmallows
+					</td>
+					<td>
+						<label>2.99$/pack</label>
+					</td>
+					<td>
+						<label>30</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Mtom.jpg" width = "90" height = "90">
+						<br>
+						Medley of Tomatoes
+					</td>
+					<td>
+						<label>14.10$/kg</label>
+					</td>
+					<td>
+						<label>64</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Navy.jpeg" width = "90" height = "90">
+						<br>
+						Navy Beans
+					</td>
+					<td>
+						<label>2.99$/can</label>
+					</td>
+					<td>
+						<label>57</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/nect.jpg" width = "90" height = "90">
+						<br>
+						Nectarines
+					</td>
+					<td>
+						<label>6.59$/kg</label>
+					</td>
+					<td>
+						<label>86</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Northernspyapple.jpg" width = "90" height = "90">
+						<br>
+						Northern Spy Apples
+					</td>
+					<td>
+						<label>6.50$/kg</label>
+					</td>
+					<td>
+						<label>30</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Ocelery.jpg" width = "90" height = "90">
+						<br>
+						Organic celery
+					</td>
+					<td>
+						<label>4.99$/stalk</label>
+					</td>
+					<td>
+						<label>30</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/OCT.jfif" width = "90" height = "90">
+						<br>
+						Organic Campari Tomatoes
+					</td>
+					<td>
+						<label>5.99$/pack</label>
+					</td>
+					<td>
+						<label>42</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/OGT.jpeg" width = "90" height = "90">
+						<br>
+						Organic Grape Tomatoes
+					</td>
+					<td>
+						<label>4.99$/pack</label>
+					</td>
+					<td>
+						<label>59</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/oreo.jpg" width = "90" height = "90">
+						<br>
+						Oreo Sandwich Cookies
+					</td>
+					<td>
+						<label>3.99$/pack</label>
+					</td>
+					<td>
+						<label>114</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Organiccar.jpg" width = "90" height = "90">
+						<br>
+						Organic Carrots
+					</td>
+					<td>
+						<label>3.80$/kg</label>
+					</td>
+					<td>
+						<label>30</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/organiclemons.jpg" width = "90" height = "90">
+						<br>
+						Bag of Organic Lemons
+					</td>
+					<td>
+						<label>4.99$/bag</label>
+					</td>
+					<td>
+						<label>26</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Organictom.jpg" width = "90" height = "90">
+						<br>
+						Organic Red Cluster Tomatoes
+					</td>
+					<td>
+						<label>11.00$/kg</label>
+					</td>
+					<td>
+						<label>82</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Osquash.jpg" width = "90" height = "90">
+						<br>
+						Organic Pepper Squash
+					</td>
+					<td>
+						<label>6.59$/kg</label>
+					</td>
+					<td>
+						<label>17</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/RCtomatoes.jpg" width = "90" height = "90">
+						<br>
+						Red Cluster Tomatoes
+					</td>
+					<td>
+						<label>8.80$/kg</label>
+					</td>
+					<td>
+						<label>31</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/redgrapes.jpg" width = "90" height = "90">
+						<br>
+						Red Grapes
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>203</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Redpot.jpeg" width = "90" height = "90">
+						<br>
+						Red Potatoes
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>186</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Romatom.jfif" width = "90" height = "90">
+						<br>
+						Roma Grape Tomatoes
+					</td>
+					<td>
+						<label>4.99$/pack</label>
+					</td>
+					<td>
+						<label>45</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Rome.jpg" width = "90" height = "90">
+						<br>
+						Rome Apples
+					</td>
+					<td>
+						<label>4.80$/kg</label>
+					</td>
+					<td>
+						<label>26</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/rootcelery.jpg" width = "90" height = "90">
+						<br>
+						Celery Root
+					</td>
+					<td>
+						<label>5.49$/kg</label>
+					</td>
+					<td>
+						<label>30</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Russetpot.jpeg" width = "90" height = "90">
+						<br>
+						Russet Potatoes
+					</td>
+					<td>
+						<label>3.99$/bag</label>
+					</td>
+					<td>
+						<label>46</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/sour patch kids.jpg" width = "90" height = "90">
+						<br>
+						Sour Patch Kids Candies
+					</td>
+					<td>
+						<label>2.49$/pack</label>
+					</td>
+					<td>
+						<label>30</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Spags.webp" width = "90" height = "90">
+						<br>
+						Spaghetti Squash
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>42</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/SSpeas.jpeg" width = "90" height = "90">
+						<br>
+						Sugar Snap Peas
+					</td>
+					<td>
+						<label>6.99$/pack</label>
+					</td>
+					<td>
+						<label>45</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Stayman.jpg" width = "90" height = "90">
+						<br>
+						Stayman Apples
+					</td>
+					<td>
+						<label>3.99$/kg</label>
+					</td>
+					<td>
+						<label>75</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Sweetpot.webp" width = "90" height = "90">
+						<br>
+						Sweet Potatoes
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>159</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Tomatoes.jpg" width = "90" height = "90">
+						<br>
+						Tomatoes
+					</td>
+					<td>
+						<label>11.00$/kg</label>
+					</td>
+					<td>
+						<label>30</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Topcar.jpg" width = "90" height = "90">
+						<br>
+						Carrots with Tops
+					</td>
+					<td>
+						<label>2.49$/carrot</label>
+					</td>
+					<td>
+						<label>87</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Vorange.jpg" width = "90" height = "90">
+						<br>
+						Valencia Oranges
+					</td>
+					<td>
+						<label>3.30$/unit</label>
+					</td>
+					<td>
+						<label>103</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/Whitepotato.jpeg" width = "90" height = "90">
+						<br>
+						White Potatoes
+					</td>
+					<td>
+						<label>1.30$/potato</label>
+					</td>
+					<td>
+						<label>221</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+				<tr>
+					<td style = "text-align: left;">
+						<img src="img/YPot.png" width = "90" height = "90">
+						<br>
+						Yukon Gold Potatoes
+					</td>
+					<td>
+						<label>4.39$/kg</label>
+					</td>
+					<td>
+						<label>65</label>
+					</td>
+					<td style = "text-align: right;">
+						<button type="button">Edit<br>Product</button>
+						<br>
+						<button type="button">Delete Product</button>
+					</td>
+				</tr>
+			</table>
+	</div> 
+</body>
+</html>
